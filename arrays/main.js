@@ -31,8 +31,8 @@ searchData.forEach((currentWord, i) => {
     const lowercaseWordNotInArray = !cleanedData.includes(lowercaseWord);
 
     if(lowercaseWordNotInArray) {
-        // add array
-        cleanedData[i] = lowercaseWord;
+        // add lowercase word to cleaned data array
+        cleanedData.push(lowercaseWord);
     }
 })
 
