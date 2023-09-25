@@ -1,5 +1,5 @@
-const applicationName = "calculator";
-function sumTwoNumbers(a,b){
-    let result = a + b;
-    console.log(applicationName + " just printed " + result);
-}
+//Scope with application name outside of function
+
+//Returning a result
+
+//Not returning a result aka - printing the result
