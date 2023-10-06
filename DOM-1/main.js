@@ -21,7 +21,6 @@ button.addEventListener("click", function() {
     liLastElement.insertAdjacentHTML("afterend", "<li>Straberry</li>");
 });
 
-
 console.log(1);
 button.addEventListener("click", function() {
     console.log(2);

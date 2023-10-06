@@ -3,3 +3,5 @@
 *.xml
 arrays.iml
 modules.xml
+.idea
+.DS_Store
