@@ -22,3 +22,16 @@ button.addEventListener("click", function() {
 });
 
 
+console.log(1);
+button.addEventListener("click", function() {
+    console.log(2);
+    h1Element.classList.toggle("red");
+});
+console.log(3);
+
+document.querySelectorAll('p').style.backgroundColor = 'red';
+
+
+
+
+
