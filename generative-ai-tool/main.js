@@ -1,5 +1,5 @@
 console.log("hello");
-const OPENAI_API_KEY = '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'; // Replace with your actual API key
+const OPENAI_API_KEY = 'KEY HERE'; // Replace with your actual API key
 
 const button = document.querySelector("button");
 const input = document.querySelector('input');
@@ -40,12 +40,11 @@ button.addEventListener("click", function() {
             spanGeneratedStory.innerText = story;
             loadingSpan.classList.add('hidden');
 
-           /* addImageToStory(imageDescription);*/
+           addImageToStory(imageDescription);
         })
 
 });
 
-addImageToStory("baby seal on a mountain top");
 function addImageToStory(imageDescription) {
     fetch('https://api.openai.com/v1/images/generations', {
                 method: 'POST',
